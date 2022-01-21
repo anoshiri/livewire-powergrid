@@ -9,7 +9,7 @@
         </div>
 
         <div class="flex flex-row">
-            @if($exportActive)
+            @if(isset($exportActive))
                 <div class="mr-2 mt-2 sm:mt-0">
                     @include(powerGridThemeRoot().'.export')
                 </div>
